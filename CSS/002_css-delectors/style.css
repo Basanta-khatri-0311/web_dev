@@ -2,9 +2,15 @@ body{
   font-family: sans-serif;
   background-color: bisque;
 }
+/* class selector */
 .html{
   color: red;
 }
+/* Id selector */
+#id{
+  color: blue;
+}
+
 .name{
   color:chocolate;
 }
@@ -16,4 +22,8 @@ body{
 }
 .hsl{
   color: hsl(25, 75%, 47%);
+}
+
+ul li{
+  font-size: 32px;
 }

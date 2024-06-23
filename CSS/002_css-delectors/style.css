@@ -1,3 +1,19 @@
+body{
+  font-family: sans-serif;
+  background-color: bisque;
+}
 .html{
   color: red;
+}
+.name{
+  color:chocolate;
+}
+.hex{
+  color: #d2691e;
+}
+.rgb{
+  color: rgb(210, 105, 30);
+}
+.hsl{
+  color: hsl(25, 75%, 47%);
 }

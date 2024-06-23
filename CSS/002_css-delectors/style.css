@@ -27,3 +27,14 @@ body{
 ul li{
   font-size: 32px;
 }
+ol li{
+  font-size: 20px;
+}
+
+#Pseudo:hover{
+  color: brown;
+}
+
+#Pseudo2:hover{
+  color: blueviolet;
+}

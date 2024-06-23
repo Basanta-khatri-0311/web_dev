@@ -1,6 +1,5 @@
 body{
   font-family: sans-serif;
-  background-color: bisque;
 }
 
 li{
@@ -8,11 +7,9 @@ li{
 }
 
 li{
-  background-color: blue ;
+  /* background-color: blue; */
 }
-ol li{
-  background-color:aliceblue !important;
-}
+
 ol .cascade{
   background-color: aqua;
 }

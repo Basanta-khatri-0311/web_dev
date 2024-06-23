@@ -1,10 +1,12 @@
 body{
   font-family: sans-serif;
+  background-color: bisque;
 }
 
 li{
   background-color: antiquewhite;
 }
+
 li{
   /* background-color: blue; */
 }

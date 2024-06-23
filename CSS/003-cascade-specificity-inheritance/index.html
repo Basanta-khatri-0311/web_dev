@@ -18,9 +18,37 @@
       <li>Tailwind</li>
     </ul>
     <ol>
-      <li>Cascade</li>
-      <p>In css the styles is applied from top to bottom i.e one after another.</p>
-      <li></li>
+      <li class="cascade"><h2>Cascade</h2></li>
+      <p>
+        In css the styles is applied from top to bottom i.e one after another.
+      </p>
+      <li><h2>Specificity</h2></li>
+      <p>
+        If there are two or more CSS rules that point to the same element, the
+        selector with the highest specificity value will "win", and its style
+        declaration will be applied to that HTML element. By hovering over them
+        in the css file we can se the specificity of that particular element.
+      </p>
+      <p>
+        The specificity will be first checked and then the cascade rule will be
+        applied. So the specificity for selectors will be element < class < id.,
+        i.e the specificity of id will be higher then everyone and then class
+        and then the element.
+      </p>
+      <p>
+        The addition or combination of the selectors will increase the
+        specificity.
+      </p>
+      <li><h2>Inheritance</h2></li>
+      <p>
+        The inherit keyword specifies that a property should inherit its value
+        from its parent element.
+      </p>
+      <p>The inherit keyword can be used for any CSS property, and on any HTML element.</p>
     </ol>
+    <p>
+      Talking about having multiple stylesheets, the same thing will be applied
+      and the stylesheet linked at the extreme below will be applied
+    </p>
   </body>
 </html>

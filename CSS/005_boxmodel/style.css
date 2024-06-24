@@ -1,0 +1,12 @@
+.parent{
+  width: 800px;
+}
+
+.one{
+  background-color: aquamarine;
+  width: 50%;
+  /* max-width: 500px; */
+}
+.one-child{
+  width: 50%;
+}

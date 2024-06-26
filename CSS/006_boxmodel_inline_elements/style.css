@@ -1,0 +1,27 @@
+body{
+  margin: 0;
+}
+p{
+  width: 300px;
+  height: 100px;
+  padding: 25px;
+  background-color: greenyellow;
+  box-sizing: border-box;
+  border: 10px solid green;
+  margin: 25px;
+}
+
+.html{
+  background-color: cadetblue ;
+  width: 300px;
+  height: 100px;
+  padding: 25px;
+}
+div{
+  background-color: aquamarine;
+  padding: 25px;
+}
+a{
+  background-color: burlywood;
+  padding: 25px;
+}

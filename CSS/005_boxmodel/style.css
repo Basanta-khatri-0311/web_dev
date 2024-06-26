@@ -22,13 +22,20 @@ h1{
 }
 
 .two{
-  background-color: burlywood;
+  background-color: rgb(168 152 133);
   width: 300px;
   height: 300px;
   padding: 25px;
   margin: 40px;
+  
   border: 8px solid hotpink;
   border-radius: 50%;
   overflow: hidden;
 
+}
+
+img{
+  width: 160%;
+  margin-left: -70px;
+  margin-top: -50px;
 }

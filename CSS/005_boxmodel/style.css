@@ -1,10 +1,15 @@
 .parent{
   width: 800px;
+  background-color: crimson;
 }
 
 .one{
   background-color: aquamarine;
-  width: 50%;
+  color: blue;
+  width: 300px;
+  padding: 25px;
+  border: 10px solid rebeccapurple;
+  box-sizing: border-box;
   /* max-width: 500px; */
 }
 .one-child{

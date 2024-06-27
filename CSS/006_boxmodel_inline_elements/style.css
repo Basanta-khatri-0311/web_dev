@@ -1,27 +1,17 @@
 body{
   margin: 0;
 }
-p{
-  width: 300px;
-  height: 100px;
-  padding: 25px;
-  background-color: greenyellow;
-  box-sizing: border-box;
-  border: 10px solid green;
-  margin: 25px;
+
+.inline-block{
+  display: inline-block;
+  background-color: coral;
 }
 
 .html{
+  display: inline-block;
   background-color: cadetblue ;
-  width: 300px;
-  height: 100px;
-  padding: 25px;
-}
-div{
-  background-color: aquamarine;
-  padding: 25px;
-}
-a{
-  background-color: burlywood;
-  padding: 25px;
+  width: 60px;
+  height: 40px;
+  border: 10px solid pink ;
+  margin: 20px;
 }

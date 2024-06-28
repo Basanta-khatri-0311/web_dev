@@ -1,0 +1,7 @@
+body{
+  margin: 0;
+}
+.box{
+  background-color: chartreuse;
+  max-width: 500px;
+}

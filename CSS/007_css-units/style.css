@@ -3,5 +3,17 @@ body{
 }
 .box{
   background-color: chartreuse;
-  max-width: 500px;
+  max-width: 50%;
+  padding: 10%;
+  margin: 10%;
+  border: 10px solid;
+  font-size: 10%;
+}
+
+section{
+  width: 400px;
+  padding: 10%;
+  /* box-sizing: border-box; */
+  background-color: blueviolet;
+  
 }

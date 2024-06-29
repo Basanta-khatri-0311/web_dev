@@ -7,7 +7,6 @@ body{
   padding: 10%;
   margin: 10%;
   border: 10px solid;
-  font-size: 10%;
 }
 
 section{
@@ -15,5 +14,9 @@ section{
   padding: 10%;
   /* box-sizing: border-box; */
   background-color: blueviolet;
+  margin: 5%;
   
+}
+h1{
+  margin: 5%;
 }

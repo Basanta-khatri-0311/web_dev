@@ -4,9 +4,8 @@ body{
 .box{
   background-color: chartreuse;
   padding: 0.5em;
-  /* box-sizing: border-box; */
-  /* border: 10px solid;
-   */
+  box-sizing: border-box;
+  border: 10px solid; 
    width: 5em;
 
 }

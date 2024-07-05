@@ -1,13 +1,13 @@
 body{
   margin: 0;
+  font-size: 2em;
 }
 .box{
   background-color: chartreuse;
-  padding: 0.5em;
   box-sizing: border-box;
-  border: 10px solid; 
-   width: 5em;
-
+  width: 5em;
+  padding: 0.5em;
+  font-size: 2em;
 }
 
 section{
@@ -18,10 +18,7 @@ section{
   border: 1vw solid green;
   font-size: 2em;
   /* font-size: 4vw; */
+  /* font-size: 4vw; */
   /* box-sizing: border-box;  */
-  /* font-size: 32px; */
-
-}
-h1{
-  margin: 5%;
+  /* font-size: 32px; */ 
 }

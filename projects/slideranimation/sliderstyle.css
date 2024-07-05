@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  background-color: bisque;
+  font-family: sans-serif;
+}
+.container{
+  margin: 8%;
+  align-items: center;
+  width: 70%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.maintext{
+  display: flex;
+  justify-content: center;
+  margin-left: 5%;
+}
+
+.container img{
+  background-color:burlywood;
+  width: 10%;
+  height: 100%;
+  object-fit:cover;
+  border-radius: 30px;
+  border: 2px solid white;
+  transition: all ease-in-out 0.5s;
+}
+.container img:hover{
+  width: 50%;
+}

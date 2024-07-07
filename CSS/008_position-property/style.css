@@ -5,7 +5,7 @@ div{
 
 ul{
   background-color: rgb(108, 4, 4);
-  position: relative;
+  /* position: relative; */
   height: 300px;
   overflow: scroll;
   /* margin-top: 20px; */
@@ -29,6 +29,13 @@ ul{
 }
 
 .html-element{
+  background-color: darkkhaki;
+  /* position: sticky; */
+  /* top: 40px; */
+}
+
+header{
+  background-color: greenyellow;
   position: sticky;
-  top: 40px;
+  top: 0;
 }

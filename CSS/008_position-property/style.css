@@ -29,6 +29,6 @@ ul{
 }
 
 .html-element{
-  /* position: sticky; */
-  /* top: 40px; */
+  position: sticky;
+  top: 40px;
 }

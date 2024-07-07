@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  background-image: repeating-linear-gradient(135deg, hsla(57,0%,42%,0.09) 0px, hsla(57,0%,42%,0.09) 1px,transparent 1px, transparent 60px),repeating-linear-gradient(45deg, hsla(57,0%,42%,0.09) 0px, hsla(57,0%,42%,0.09) 1px,transparent 1px, transparent 60px),repeating-linear-gradient(45deg, hsla(57,0%,42%,0.09) 0px, hsla(57,0%,42%,0.09) 1px,transparent 1px, transparent 10px),repeating-linear-gradient(135deg, hsla(57,0%,42%,0.09) 0px, hsla(57,0%,42%,0.09) 1px,transparent 1px, transparent 10px),linear-gradient(135deg, rgb(20,20,20),rgb(20,20,20));
 }
 div{
   background-color: blanchedalmond;

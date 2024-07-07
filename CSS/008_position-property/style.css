@@ -1,5 +1,23 @@
 div{
   position: relative;  
   background-color: chartreuse;
-  inset: 50px;
+}
+
+ul{
+  background-color: brown;
+  position: relative;
+  margin-top: 20px;
+}
+.css-element{
+  background-color: aquamarine;
+  position: absolute;
+  /* left: 5px; */
+  top: 40px;
+  /* right: 5px; */
+  /* bottom: 5px; */
+  /* inset: 5px; */
+}
+
+.js-element{
+
 }

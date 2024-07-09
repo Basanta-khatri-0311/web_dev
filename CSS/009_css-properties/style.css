@@ -1,0 +1,9 @@
+.box{
+  width:100px;
+  height: 100px;
+  /* background-color: green; */
+  background-color: rgba(0, 128, 0, 0.7);
+  transform: scale(2);
+  transform-origin: 0 0;
+   /* opacity: 70%; */
+}

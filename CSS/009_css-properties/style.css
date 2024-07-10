@@ -35,4 +35,6 @@ h1,h3{
 
 .box2:hover{
   transform:translate(-50%, -50%) rotate(0deg) scale(3);
+  visibility: hidden;
 }
+

@@ -8,8 +8,8 @@ body{
   position: absolute;
   margin: auto;
   padding: 1rem;
-  padding-bottom: 3rem;
   inset: 0;
+  padding-bottom: 3rem;
   width: 302px;
   height: 470px;
   background-color: white;
@@ -18,8 +18,13 @@ body{
 }
 .qr-card img{
   border-radius: 10px;
-
+  transition: transform 500ms;
 }
+
 h2{
   color: #252D47;
+}
+
+.qr-card img:hover{
+  transform: scale(1.4);
 }

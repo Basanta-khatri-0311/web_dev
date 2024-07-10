@@ -1,4 +1,4 @@
-.box{
+/* .box{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -12,14 +12,27 @@
 
    /* transform: rotate(45deg); */
    /* transform: translateY(100px)s; */
-}
+/* }  */
 
 .box2{
+  padding: 8px;
   width: 200px;
   height: 100px;
-  background-color: bisque;
+  /* background-color: bisque; */
+  background-image: url('https://images.unsplash.com/photo-1720414575185-aa7d0008a61c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transition: transform 200ms;
+  transform: translate(-50%, -50%) rotate(0deg) scale(1.5);
+  border-radius: 12px;
+  box-shadow: 0px 0px 8px 15px rgba(170, 170, 170, 0.2);
+}
+h1,h3{
+  text-shadow: 6px 4px 10px red;
+}
+
+.box2:hover{
+  transform:translate(-50%, -50%) rotate(0deg) scale(3);
 }

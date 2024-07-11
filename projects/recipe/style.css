@@ -1,0 +1,22 @@
+body{
+  background-color:;
+}
+p{
+  font-size: 1rem;
+}
+.time{
+  border-radius: 10px;
+  background-color: hsl(330, 100%, 98%);
+}
+.time h3{
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+h3{
+  color: hsl(332, 51%, 32%);
+}
+
+h2{
+  color: hsl(14, 45%, 36%);
+}

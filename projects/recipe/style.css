@@ -1,8 +1,16 @@
 body{
-  background-color:;
+  background-color:hsl(0, 0%, 100%);
 }
 p{
   font-size: 1rem;
+}
+.first-img{
+  width: 1250px;
+  height: 500px;
+  margin: 10px;
+  border-radius: 4px;
+  background-image: url(/projects/recipe/assets/image-omelette.jpeg);
+  background-size:cover;
 }
 .time{
   border-radius: 10px;

@@ -5,15 +5,19 @@ body{
   box-sizing: border-box;
 }
 .parent{
-  display: flex;
+  height: 50vh;
   padding: 10px;
+  display: flex;
   justify-content: center;
+  justify-content: space-between;
+  flex-direction: column;
+  /* align-items: center; */
   /* border: 4px solid indianred; */
 }
 
 .parent span{
-  width: 400px;
-  height: 300px;
+  /* width: 400px; */
+  /* height: 300px; */
   flex-shrink: 0;
   /* border: 4px solid cadetblue; */
   background-color: cadetblue;

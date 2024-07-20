@@ -5,17 +5,19 @@ body{
   box-sizing: border-box;
 }
 .parent{
-  height: 50vh;
+  /* height: 50vh; */
   padding: 10px;
   display: flex;
   justify-content: center;
   justify-content: space-between;
   flex-direction: column;
+  align-items: center;
   /* align-items: center; */
   /* border: 4px solid indianred; */
 }
 
 .parent span{
+  flex-basis: 100px;
   /* width: 400px; */
   /* height: 300px; */
   flex-shrink: 0;
@@ -25,13 +27,16 @@ body{
 
 .parent p{
   margin: 0;
-  width: 500px ;
+  /* width: 500px ; */
+  flex-basis: 100px;
   /* border: 4px solid darkkhaki; */
   background-color: darkkhaki;
 }
 
 .parent a{
-  width: 500px;
+  flex-basis: 100px;
+  /* width: 500px; */
+  /* height: 200px; */
   /* border: 4px solid yellowgreen; */
   background-color: yellowgreen;
 }

@@ -5,20 +5,22 @@ body{
   box-sizing: border-box;
 }
 .parent{
-  height: 50vh;
+  display: inline-flex;
+  height: 400px;
   /* padding: 10px; */
-  display: flex;
-  
-  /* justify-content: center; */
+  /* display: flex; */
+  /* align-content: center; */
+  justify-content: center;
   /* justify-content: space-between; */
-  /* flex-direction: column; */
+  flex-direction: column;
+  gap: 16px;
   /* align-items: center; */
   /* margin-block:32px ; */
   /* margin-inline: 200px; */
   /* flex-wrap: wrap; */
   /* gap: 10px; */
   /* align-items: center; */
-  /* border: 4px solid indianred; */
+  border: 4px solid indianred;
 }
 
 .parent span{
@@ -41,7 +43,7 @@ body{
 .parent a{
   /* flex-basis: 100px; */
   /* width: 500px; */
-  height: 150px;
+  /* height: 150px; */
   /* border: 4px solid yellowgreen; */
   background-color: yellowgreen;
   /* height: 150px; */
@@ -49,7 +51,7 @@ body{
 }
 
 .parent > *{
-  width:200px;
+  /* width:200px; */
   margin: 0;
   /* margin: auto; */
 }

@@ -5,10 +5,36 @@
   border: 25px solid blue;
 }
 
-@media print{
+
+
+@media (min-width:700px)  {
   .square{
     border: 25px solid red;
     border-radius: 20px ;
     background-color:antiquewhite;
   }
 }
+
+/* @media (max-width:700px)  {
+  .square{
+    border: 25px solid red;
+    border-radius: 20px ;
+    background-color:antiquewhite;
+  }
+} */
+/* 
+@media (width <= 700px){
+  .square{
+    border: 25px solid red;
+    border-radius: 20px ;
+    background-color:antiquewhite;
+  }
+} */
+
+/* @media (500px <= width <= 700px){
+  .square{
+    border: 25px solid red;
+    border-radius: 20px ;
+    background-color:antiquewhite;
+  }
+} */

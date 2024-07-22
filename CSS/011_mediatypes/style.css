@@ -4,3 +4,11 @@
   height: 300px;
   border: 25px solid blue;
 }
+
+@media print{
+  .square{
+    border: 25px solid red;
+    border-radius: 20px ;
+    background-color:antiquewhite;
+  }
+}

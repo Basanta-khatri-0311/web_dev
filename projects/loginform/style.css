@@ -31,7 +31,7 @@ a{
 .rect h2{
   font-size: 40px;
   font-weight: 400;
-  padding-left: 90px;
+  padding-left: 120px;
 }
 
 .logins{
@@ -58,8 +58,35 @@ a{
   background-color: #FAF8F6;
   text-align: center;
   border: 2px solid white;
+  margin-top: 20px;
 }
 
 .logins label{
   margin: 10px;
+}
+
+@media (max-width: 440px) {
+  .circle {
+    width: 370px;
+    height: 370px;
+  }
+
+  .rect {
+    width: 400px;
+    height: 400px;
+    padding-left: 20px;
+  }
+
+  .rect h2 {
+    font-size: 26px;
+    padding-left: 140px;
+  }
+
+  .inp {
+    height: 60px;
+  }
+
+  .logins .inp{
+    width: 200px;
+  }
 }

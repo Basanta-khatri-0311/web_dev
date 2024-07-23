@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+}
+
+.links{
+  display: flex;
+  justify-content:center;
+  margin-top: 200px;
+}
+
+.lin{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  /* background-color: black; */
+  /* background-color: rgb(28, 240, 28); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin: 15px;
+  transition: transform 200ms;
+}
+
+.lin:hover{
+  transform: scale(1.5) rotate(360deg);
+}
+
+@media (max-width:550px){
+  .links{
+    margin-top: 0px;
+    flex-direction: column;
+  }
+}

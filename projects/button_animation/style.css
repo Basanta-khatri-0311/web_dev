@@ -15,7 +15,6 @@ body{
   text-decoration: none;
   border-radius: 20px;
   position: relative;
-  transition: transform 1s;
   overflow: hidden;
 }
 

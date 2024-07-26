@@ -15,7 +15,6 @@ html {
   margin-bottom: -80px;
 }
 .hero-sec {
-  min-height: 100vh;
   background-image: url(/projects/wishing/images/orange-backdrop\ 1.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,7 +26,7 @@ html {
 
 .hero-sec p {
   font-size: 46px;
-  max-width: 400px;
+  max-width: 600px;
 }
 
 audio::-webkit-media-controls-panel {
@@ -43,6 +42,63 @@ audio::-webkit-media-controls-panel {
   align-items: center;
   gap: 10px;
   padding-left: 20px;
+}
+
+.hero-sec-two{
+  background-color:#f99501 ;
+  padding-top: 1em;
+}
+.lax-gan{
+  max-width: 900px;
+  width: 100%;
+  display: block;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.hor-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  max-width: 800px;
+  margin-inline: auto;
+  margin-bottom: 2rem;
+}
+.hor-div .circle{
+  width: 10px;
+  height: 10px;
+  background: #fbd8a4;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.hor-div .hor-line{
+  background: #fbd8a4;
+  height: 4px;
+  width:468px ;
+}
+.hero-sec-two h2{
+  font-family: "Style Script", cursive;
+  font-size: 54px;
+  font-weight: 400;
+  text-align: center;
+}
+.whitecard-cont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.white-card{
+  background-color: #fff;
+  width: 855px;
+  padding: 4rem;
+  border-radius: 20px;
+}
+
+.white-card p{
+  font-size: 2rem;
+  
 }
 
 @media(max-width: 840px) {
@@ -70,6 +126,10 @@ audio::-webkit-media-controls-panel {
     width: 100%;
     max-width: 226px;
   }
+  .hero-sec-two h2{
+    font-size: 32px;
+  }
 }
 
-/* font-family: "Style Script", cursive; */
+
+

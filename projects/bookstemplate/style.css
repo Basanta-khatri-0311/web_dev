@@ -1,0 +1,29 @@
+/* *{
+  box-sizing: border-box;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+.container{
+  display: flex;
+}
+.container p{
+  display: block;
+} */
+img{
+  width: 200px;
+  float: right;
+  margin-right: 0.5rem;
+}
+
+.first-para{
+  background-color: blue;
+}
+.second-para{
+  background-color: aquamarine;
+}
+
+.third-para{
+  background-color: aliceblue;
+}

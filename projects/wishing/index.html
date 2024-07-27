@@ -29,7 +29,7 @@
       />
       <div class="para-audi">
         <p>
-          Hi,<br />
+          Hi, <span id="receiver"></span> <br />
           You mean the world to me... So this Diwali, I made something for you!
         </p>
         <div class="audio-cont">
@@ -78,13 +78,41 @@
         <div class="white-card">
           <p>People say, “Diwali is the festival of lights.”</p>
           <p>
-            You know what, I can feel the positivity and happiness. My goal is to
-            learn web development and I’m learning everyday, even today!
+            You know what, I can feel the positivity and happiness. My goal is
+            to learn web development and I’m learning everyday, even today!
           </p>
         </div>
-        <img class="girl" src="/projects/wishing/images/little-girl 1.png" alt="">
+        <img
+          class="girl"
+          src="/projects/wishing/images/little-girl 1.png"
+          alt=""
+        />
       </div>
+      <div class="hor-div">
+        <div class="hor-line"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="hor-line"></div>
+      </div>
+      <div class="ganesha-card">
+        <img src="/projects/wishing/images/ganesh.png" alt="ganesh" />
+        <img src="/projects/wishing/images/lakshmi.png" alt="lakshmi" />
+      </div>
+      <div class="thankyou">
+        <p>Happy Diwali and,</p>
+        <h2>Thank You For Everything...</h2>
+      </div>
+      <p class="writer">-Made with love by <span id="sender"></span> ❤️</p>
     </section>
-    
+    <script>
+      const receiverName = document.querySelector("#receiver");
+      const senderName = document.querySelector("#sender");
+      receiverName.innerText = new URLSearchParams(location.search).get(
+        "receiver"
+      );
+      senderName.innerText =
+        new URLSearchParams(location.search).get("sender") || "Basanta Khatri";
+    </script>
   </body>
 </html>

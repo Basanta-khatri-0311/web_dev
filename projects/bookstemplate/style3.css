@@ -1,0 +1,7 @@
+.container{
+  display: flex;
+}
+.imgg img{
+  width: 200px;
+  float: left;
+}

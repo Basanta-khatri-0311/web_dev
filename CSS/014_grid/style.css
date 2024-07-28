@@ -21,8 +21,8 @@ body{
 }
 .box-1{
   background-color: blue;
-  grid-column-start: 2;
-  grid-row-start: 2;
+  grid-column-start: span 2;
+  grid-row-start: span 2;
   grid-column-end: 4;
   grid-row-end: 4;
   display: flex;

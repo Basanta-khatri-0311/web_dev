@@ -8,7 +8,7 @@ var first$Name = 'Basanta'
 let last_Name = 'Khatri'
 
 let age = 25
-firstName = 'bro'
+first_Name = 'bro'
 
 let isHappy = true
 let a

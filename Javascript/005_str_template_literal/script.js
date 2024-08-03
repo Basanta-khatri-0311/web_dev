@@ -22,7 +22,8 @@ console.log(trimMessage.replace('Hello', 'Hi'));
 console.log(trimMessage.concat(message));
 
 
-const lastFourDigits = '7890'
+const lastFourDigits = '7899'
+const bankBalance = 900
 console.log(lastFourDigits.padStart(16, '*')); 
 console.log(lastFourDigits.padEnd(16, '*')); 
 
@@ -35,3 +36,4 @@ console.log(trimMessage.split(' '));
 
 // console.log(`Last four digit of my card is `.concat(lastFourDigits));
 console.log(`Last four digit of my card is ${lastFourDigits.padStart(16,'*')}.`);
+console.log(`I have $${bankBalance} in my bank.`);

@@ -28,5 +28,18 @@ const breadth = 30
 const length = 20
 
 let area
+area = length * breadth
 
-console.log(`The area of rectangle of length ${length} and breadth ${breadth} is ${length * breadth}`);
+console.log(`The area of rectangle of length ${length} and breadth ${breadth} is ${area}`);
+
+
+
+//by taking input from user.
+const length1 = +prompt(`Enter the length of a rectangle`)
+const breadth1 = +prompt(`Enter the breadth of a rectangle`)
+
+let area1
+area1 = length1 * breadth1
+
+console.log(`The area of rectangle of length ${length1} and breadth ${breadth1} is ${area1}`);
+document.write(`The area of rectangle of length ${length1} and breadth ${breadth1} is ${area1}`)

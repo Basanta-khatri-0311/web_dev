@@ -33,4 +33,5 @@ console.log(trimMessage.charCodeAt(3));
 console.log(trimMessage.split(' '));
 
 
-console.log(`Last four digit of my card is `.concat(lastFourDigits));
+// console.log(`Last four digit of my card is `.concat(lastFourDigits));
+console.log(`Last four digit of my card is ${lastFourDigits.padStart(16,'*')}.`);

@@ -9,3 +9,6 @@ console.log(Math.sqrt(25));
 console.log(Math.sqrt(27));
 
 console.log(Math.pow(2,6));
+
+console.log(Math.floor(2.5));
+console.log(Math.floor(2.99889));

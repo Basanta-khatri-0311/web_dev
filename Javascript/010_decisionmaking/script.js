@@ -10,6 +10,26 @@ console.log(`Name: ${userName}`);
 console.log(`Age: ${userAge}`);
 console.log(`Gender: ${gender}`);
 
+if (userAge >= 0 && userAge <= 4) {
+  console.log(`${userName} is a toddler.`)
+  if(gender ==`f`|| gender ==`F`){
+    console.log(`And she is learning to walk and talk`);
+  }
+  if(gender ==`m`|| gender ==`M`){
+    console.log(`And he is learning to walk and talk.`);
+  }
+}
+
+if (userAge >= 5 && userAge <= 17) {
+  console.log(`${userName} is a School Student.`)
+  if(gender ==`f`|| gender ==`F`){
+    console.log(`And she is learning science and maths.`);
+  }
+  if(gender ==`m`|| gender ==`M`){
+    console.log(`And he is learning science and maths`);
+  }
+}
+
 if (userAge >= 18 && userAge <= 24) {
   console.log(`${userName} is a College Student.`)
   if(gender ==`f`|| gender ==`F`){
@@ -19,6 +39,7 @@ if (userAge >= 18 && userAge <= 24) {
     console.log(`And he is learning java script.`);
   }
 }
+
 if (userAge >= 25 && userAge <= 45) {
   console.log(`${userName} is a Working professional.`)
   if(gender ==`f`|| gender ==`F`){

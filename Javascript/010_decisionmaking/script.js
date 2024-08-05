@@ -20,7 +20,7 @@ if (userAge >= 0 && userAge <= 4) {
   }
 }
 
-if (userAge >= 5 && userAge <= 17) {
+else if (userAge >= 5 && userAge <= 17) {
   console.log(`${userName} is a School Student.`)
   if(gender ==`f`|| gender ==`F`){
     console.log(`And she is learning science and maths.`);
@@ -30,7 +30,7 @@ if (userAge >= 5 && userAge <= 17) {
   }
 }
 
-if (userAge >= 18 && userAge <= 24) {
+else if (userAge >= 18 && userAge <= 24) {
   console.log(`${userName} is a College Student.`)
   if(gender ==`f`|| gender ==`F`){
     console.log(`And she is learning java script.`);
@@ -40,7 +40,7 @@ if (userAge >= 18 && userAge <= 24) {
   }
 }
 
-if (userAge >= 25 && userAge <= 45) {
+else if (userAge >= 25 && userAge <= 45) {
   console.log(`${userName} is a Working professional.`)
   if(gender ==`f`|| gender ==`F`){
     console.log(`And she is a web developer`);
@@ -50,7 +50,7 @@ if (userAge >= 25 && userAge <= 45) {
   }
 }
 
-if (userAge > 45) {
+else if (userAge > 45) {
   console.log(`${userName} is a retired `)
   if(gender ==`f`|| gender ==`F`){
     console.log(`And she reads newspaper.`);

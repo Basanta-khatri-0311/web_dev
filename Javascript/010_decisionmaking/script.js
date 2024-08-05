@@ -50,14 +50,20 @@ else if (userAge >= 25 && userAge <= 45) {
   }
 }
 
-else if (userAge > 45) {
-  console.log(`${userName} is a retired `)
+else if (userAge > 45 && userAge <= 121) {
+  console.log(`${userName} is retired`)
   if(gender ==`f`|| gender ==`F`){
-    console.log(`And she reads newspaper.`);
+    console.log(`And she reads newspaper`);
   }
   if(gender ==`m`|| gender ==`M`){
     console.log(`And he reads newspaper.`);
   }
+}
+else if (userAge >= 121 ){
+  console.log(`${userName} is immortal.`);
+}
+else {
+  console.log(`Please enter a valid age.`);
 }
 
 console.log(`Program Ended!!!`);

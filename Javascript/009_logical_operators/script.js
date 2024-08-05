@@ -14,3 +14,10 @@ const orResult2 = '' || `hello`
 
 const andResult3 = 'Hello' && null
 const orResult3 = 'Hello' || null
+
+
+const andResult4 = '' && 4+8
+const orResult4 = undefined || 4+8
+
+const andResult5 = 'Hello' && console.log(`Hello`);
+const orResult5 = undefined || console.log(`Hello`);

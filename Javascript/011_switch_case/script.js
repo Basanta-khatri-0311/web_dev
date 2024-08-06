@@ -20,75 +20,101 @@
 
 
 
-const dayNumber = 4
+// const dayNumber = 4
 
-switch (dayNumber) {
-  case 0:
-    console.log(`Its sunday Today.`);
+// switch (dayNumber) {
+//   case 0:
+//     console.log(`Its sunday Today.`);
+//     break
+//   case 1:
+//     console.log(`Its monday Today.`);
+//     break
+//   case 2:
+//     console.log(`Its tuesday Today.`);
+//     break
+
+//   case 3:
+//     console.log(`Its wednesday Today.`);
+//     break
+
+//   case 4:
+//     console.log(`Its thursday Today.`);
+//     break
+//   case 5:
+//     console.log(`Its friday Today.`);
+//     break
+
+//   case 6:
+//     console.log(`Its saturday Today.`);
+//     break
+//   default:
+//     console.log(`Please enter a valid day number.`);
+
+// }
+
+
+// console.log(`Program Ended for day!!!`);
+
+
+
+// const userName = `Basanta Khatri`
+// const userAge = 22
+
+// console.log(`UserName: ${userName}`);
+// console.log(`Age: ${userAge}`);
+
+// switch (true) {
+//   case (userAge >= 0 && userAge <= 4):
+//     console.log(`${userName} is a toddler.`)
+//     break
+
+//   case (userAge >= 5 && userAge <= 17):
+//     console.log(`${userName} is a School Student.`)
+//     break
+
+//   case (userAge >= 18 && userAge <= 24):
+//     console.log(`${userName} is a College Student.`)
+//     break
+
+//   case (userAge >= 25 && userAge <= 45):
+//     console.log(`${userName} is a Working professional.`)
+//     break
+
+//   case (userAge > 45 && userAge <= 121):
+//     console.log(`${userName} is retired`)
+//     break
+
+//   case (userAge >= 121):
+//     console.log(`${userName} is immortal.`);
+//     break
+
+//   default:
+//     console.log(`Please enter a valid age.`);
+
+
+// }
+
+// console.log(`Program Ended for age time!!!`);
+
+
+const grade = `C`
+
+switch (grade) {
+  case `A`:
+    console.log(`Your score is between 85% to 100%`)
     break
-  case 1:
-    console.log(`Its monday Today.`);
+  case `B`:
+    console.log(`Your score is between 75% to 85%`)
     break
-  case 2:
-    console.log(`Its tuesday Today.`);
+  case `C`:
+    console.log(`Your score is between 60% to 75%`)
     break
-
-  case 3:
-    console.log(`Its wednesday Today.`);
+  case `D`:
+    console.log(`Your score is between 50% to 60%`)
     break
-
-  case 4:
-    console.log(`Its thursday Today.`);
+  case `E`:
+    console.log(`Your score is between 35% to 50%`)
     break
-  case 5:
-    console.log(`Its friday Today.`);
-    break
-
-  case 6:
-    console.log(`Its saturday Today.`);
-    break
-  default:
-    console.log(`Please enter a valid day number.`);
-
-}
-
-
-console.log(`Program Ended for day!!!`);
-
-
-const userName = `Basanta Khatri`
-const userAge = 22
-
-console.log(`UserName: ${userName}`);
-console.log(`Age: ${userAge}`);
-
-switch (true) {
-  case (userAge >= 0 && userAge <= 4):
-    console.log(`${userName} is a toddler.`)
-    break
-
-  case (userAge >= 5 && userAge <= 17):
-    console.log(`${userName} is a School Student.`)
-    break
-
-  case (userAge >= 18 && userAge <= 24):
-    console.log(`${userName} is a College Student.`)
-    break
-
-  case (userAge >= 25 && userAge <= 45):
-    console.log(`${userName} is a Working professional.`)
-    break
-
-  case (userAge > 45 && userAge <= 121):
-    console.log(`${userName} is retired`)
-    break
-
-  case (userAge >= 121):
-    console.log(`${userName} is immortal.`);
-    break
-
-  default:
-    console.log(`Please enter a valid age.`);
-
-
+  default :
+  console.log(`Sorry you are failed`);
 }

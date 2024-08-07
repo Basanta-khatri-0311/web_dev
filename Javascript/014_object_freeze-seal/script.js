@@ -1,5 +1,6 @@
+let userName = 'Basanta'
 const user = {
-  firstName : 'Basanta' ,
+  firstName : 'Basant' ,
   lastName: 'Khatri' ,
   add: {
     city : 'Butwal',
@@ -13,3 +14,6 @@ const user = {
   age:15 ,
   isGraduate:false ,
 }
+
+// Object.seal(user)
+Object.freeze(user)

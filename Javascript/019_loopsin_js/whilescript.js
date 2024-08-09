@@ -35,7 +35,7 @@
 
 console.log('Program started');
 
-//even numbers
+// even numbers
 // for (let i = 0; i <= 100; i++) {
 //   if (i % 2 === 0) {
 //     console.log(i);
@@ -117,3 +117,13 @@ console.log('Program started');
 //   }
 //   console.log(str);
 // }
+
+
+//do while loop
+
+// debugger
+let i = 10
+do {
+  console.log(i)
+  i++
+} while (i < 5)

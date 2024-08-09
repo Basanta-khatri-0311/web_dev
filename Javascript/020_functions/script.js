@@ -9,7 +9,7 @@ function intro(userName,post) {
   return 'hello'
 }
 //this is called function calling
-// const value = intro()
+const value = intro()
 
 // intro('Basanta Khatri','Web Developer')
 // intro(`Something`,'Don`t know')

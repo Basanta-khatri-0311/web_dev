@@ -1,6 +1,6 @@
 //The below done is known as function definition
 
-function intro(userName,post) {
+function intro(userName = 'Default',post='Default') {
   console.log('Hi,')
   console.log(`My name is ${userName}.`)
   console.log(`I am a ${post}.`)
@@ -13,4 +13,5 @@ const value = intro()
 
 intro('Basanta Khatri','Web Developer')
 intro(`Something`,'Don`t know')
+intro()
 

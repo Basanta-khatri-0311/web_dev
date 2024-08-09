@@ -11,6 +11,6 @@ function intro(userName,post) {
 //this is called function calling
 const value = intro()
 
-// intro('Basanta Khatri','Web Developer')
-// intro(`Something`,'Don`t know')
+intro('Basanta Khatri','Web Developer')
+intro(`Something`,'Don`t know')
 

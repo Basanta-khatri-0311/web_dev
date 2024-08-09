@@ -17,7 +17,7 @@ console.log('Program Started');
 
 let friends = ['Ram', 'Shyam', 'Hari', 'Sita', 'Gita']
 
-i = 0
+let i = 0
 
 while (i < friends.length) {
   console.log(`${i + 1}. ${friends[i]} `);

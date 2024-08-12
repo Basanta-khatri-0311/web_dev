@@ -41,8 +41,8 @@ processArray(num, sqr)
 
 function filterArray(arr, callBack) {
   const even = []
-  for (let i = 0; i < arr.length; i++){
-    if(callBack(arr[i])){
+  for (let i = 0; i < arr.length; i++) {
+    if (callBack(arr[i])) {
       even.push(arr[i])
     }
   }
@@ -50,7 +50,7 @@ function filterArray(arr, callBack) {
 }
 
 function isTrue(num) {
-    return num % 2===0
+  return num % 2 === 0
 }
 
 filterArray([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], isTrue)
@@ -60,16 +60,38 @@ filterArray([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], isTrue)
 //Create a function mapArray that takes an array and a callback function. 
 //The function should return a new array with each element transformed by the callback function.
 
-function mapArray(arr,callBack){
+function mapArray(arr, callBack) {
   const upperValue = []
-  for(let i =0;i<arr.length ;i++){
+  for (let i = 0; i < arr.length; i++) {
     upperValue.push(callBack(arr[i]))
   }
   console.log(upperValue);
 }
 
-function toUpper(value){
+function toUpper(value) {
   return value.toUpperCase()
 }
 
-mapArray(['apple','mango','banana','grapes','watermelon'],toUpper)
+mapArray(['apple', 'mango', 'banana', 'grapes', 'watermelon'], toUpper)
+
+
+//Create a function createMultiplier that returns another function. 
+//The returned function should take a number and multiply it by the multiplier 
+//provided when createMultiplier was called.
+
+function createMultiplier(multiplier) {
+  return function (number) {
+    return number * multiplier
+  }
+}
+
+const multiplyTwo = createMultiplier(2)
+
+
+console.log(multiplyTwo(10));
+
+/**
+Higher-Order Function: createMultiplier is a higher-order function because it returns another function.
+Callback: The returned function acts as a callback that performs the multiplication.
+Closure: The returned function retains access to the multiplier variable, demonstrating the concept of closures.
+ */

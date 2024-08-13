@@ -33,10 +33,10 @@ const months = ['January', 'February', 'March', 'April', 'May',
 // })
 
 //returns months in odd place
-const filterMonths = months.filter((month, index) => {
-  console.log(month);
-  return (index + 1) % 2 === 1
-})
+// const filterMonths = months.filter((month, index) => {
+//   console.log(month);
+//   return (index + 1) % 2 === 1
+// })
 
 
 
@@ -52,4 +52,26 @@ const filterMonths = months.filter((month, index) => {
 // for(keys of key){
 //   console.log(obMonths[keys]);
 // }
+
+
+
+
+// const students = [
+//   {
+//     name: 'Basanta',
+//     age: 22
+//   },
+//   {
+//     name: 'sameer',
+//     age: 18
+//   },
+//   {
+//     name: 'sumit',
+//     age: 23
+//   }
+// ]
+
+// const value = students.filter((student) => student.age > 18).map((student)=> student.name
+// ).filter((student)=>student.includes('a'))
+// console.log(value);
 

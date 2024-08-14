@@ -176,7 +176,7 @@ console.log(filteredPeopleName);
 const numbersToBeSum = [1, 2, 3, 4, 5];
 // Expected output: 15
 
-const sumNumbers = numbersToBeSum.reduce((eachNumber,currentValue)=> eachNumber+currentValue)
+const sumNumbers = numbersToBeSum.reduce((eachNumber, currentValue) => eachNumber + currentValue)
 console.log(sumNumbers);
 
 
@@ -189,11 +189,70 @@ const fruits = ['apple', 'banana', 'orange', 'apple', 'orange', 'apple'];
 const target = 'apple';
 // Expected output: 3
 
-const occurNumber = fruits.reduce((occurrence,currentValue)=>{
-  if(currentValue === target){
-    occurrence+=1
+const occurNumber = fruits.reduce((occurrence, currentValue) => {
+  if (currentValue === target) {
+    occurrence += 1
   }
   return occurrence
-},0)
+}, 0)
 console.log(occurNumber);
 
+
+//15. Check if an Array Contains Any Odd Numbers:
+
+//Problem: Given an array of numbers, use the some method to check if there is at least one odd number 
+//in the array.
+
+const evenNumber = [2, 4, 6, 8, 10];
+// Expected output: false (since there are no odd numbers)
+
+const evenNumber2 = [2, 4, 7, 8, 10];
+// Expected output: true (since 7 is odd)
+
+
+console.log(evenNumber.some((n) => n % 2 === 1));
+console.log(evenNumber2.some((n) => n % 2 === 1));
+
+
+//16.Check if Any Word in an Array is Longer Than 5 Characters:
+
+//Problem: Given an array of strings, use the some method to check if any of the words have a 
+//length greater than 5.
+
+const words1 = ['apple', 'banana', 'grape', 'kiwi'];
+// Expected output: true (since 'banana' has 6 characters)
+
+const words2 = ['cat', 'dog', 'fish'];
+// Expected output: false (all words have 5 or fewer characters)
+
+console.log(words1.some((word) => word.length > 5));
+console.log(words2.some((word) => word.length > 5));
+
+
+//17.Check if All Numbers in an Array Are Positive:
+
+//Problem: Given an array of numbers, use the every method to check if all numbers are positive.
+
+const posnumbers = [1, 2, 3, 4, 5];
+// Expected output: true (all numbers are positive)
+
+const posnumbers2 = [1, -2, 3, 4, 5];
+// Expected output: false (since -2 is not positive)
+
+console.log(posnumbers.every((n) => n > 0));
+console.log(posnumbers2.every((n) => n > 0));
+
+
+//18. Check if All Strings in an Array Are Capitalized:
+
+//Problem: Given an array of strings, use the every method to check if every string starts
+// with an uppercase letter.
+
+const capwords = ['Apple', 'Banana', 'Grape'];
+// Expected output: true (all strings are capitalized)
+
+const capwords2 = ['apple', 'Banana', 'Grape'];
+// Expected output: false (since 'apple' is not capitalized)
+
+console.log(capwords.every((cap)=> cap[0]===cap[0].toUpperCase()));
+console.log(capwords2.every((cap)=> cap[0]===cap[0].toUpperCase()));

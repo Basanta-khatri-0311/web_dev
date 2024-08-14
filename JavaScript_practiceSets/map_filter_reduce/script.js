@@ -111,3 +111,89 @@ const updatePrice1 = products1.map((product1) => ({
   price: (product1.price >= 100 ? product1.price * 0.85 : product1.price)
 })).filter((product1) => product1.price >= 80)
 console.log(updatePrice1);
+
+
+//9.Convert Array of Numbers to Their Squares:
+
+//Problem: Given an array of numbers, use the map method to create a new array containing the 
+//squares of each number.
+
+const nums = [1, 2, 3, 4, 5];
+
+
+const squareNums = nums.map((num) => (num * num))
+
+console.log(squareNums);
+
+//10.Convert Array of Objects to Array of Strings:
+
+//Problem: You have an array of objects, each representing a person with a name and age property. 
+//Use the map method to create a new array containing only the names.
+
+const peoples = [
+  { name: 'Alice', age: 25 },
+  { name: 'Bob', age: 30 },
+  { name: 'Charlie', age: 35 }
+];
+// Expected output: ['Alice', 'Bob', 'Charlie']
+
+const pep = peoples.map((pep) => pep.name)
+console.log(pep);
+
+//11.Filter Even Numbers:
+
+//Problem: Given an array of numbers, use the filter method to create a new array that contains only 
+//the even numbers.
+
+const numbersToFilterEven = [1, 2, 3, 4, 5, 6];
+// Expected output: [2, 4, 6]
+
+const filteredEvenNumbers = numbersToFilterEven.filter((evenFiltered) => evenFiltered % 2 === 0)
+
+console.log(filteredEvenNumbers);
+
+
+//12.Filter People Above a Certain Age:
+
+//Problem: You have an array of objects representing people with name and age properties.
+//Use the filter method to create a new array containing only the people who are older than 30.
+
+const peopleNames = [
+  { name: 'Alice', age: 25 },
+  { name: 'Bob', age: 35 },
+  { name: 'Charlie', age: 32 }
+];
+// Expected output: [{ name: 'Bob', age: 35 }, { name: 'Charlie', age: 32 }]
+
+const filteredPeopleName = peopleNames.filter((filteredName) => filteredName.age > 30)
+console.log(filteredPeopleName);
+
+
+//13.Sum of an Array:
+
+//Problem: Given an array of numbers, use the reduce method to calculate the sum of all the numbers.
+
+const numbersToBeSum = [1, 2, 3, 4, 5];
+// Expected output: 15
+
+const sumNumbers = numbersToBeSum.reduce((eachNumber,currentValue)=> eachNumber+currentValue)
+console.log(sumNumbers);
+
+
+//14.Count Occurrences of a Value:
+
+//Problem: Given an array of strings, use the reduce method to count how many times a specific 
+//string appears in the array.
+
+const fruits = ['apple', 'banana', 'orange', 'apple', 'orange', 'apple'];
+const target = 'apple';
+// Expected output: 3
+
+const occurNumber = fruits.reduce((occurrence,currentValue)=>{
+  if(currentValue === target){
+    occurrence+=1
+  }
+  return occurrence
+},0)
+console.log(occurNumber);
+

@@ -77,9 +77,24 @@ const months = ['January', 'February', 'March', 'April', 'May',
 
 
 
-const nums = [1, 2, 3, 4, 5, 6]
+const nums = [6, 2, 3, 4, 5, 6]
 
-nums.reduce((accumulator, current, index, arr) => {
-  console.log(accumulator, current)
-  return accumulator + current
-})
+// nums.reduce((accumulator, current, index, arr) => {
+//   console.log(accumulator, current)
+//   return accumulator + current
+// })
+
+// console.log(nums.some((num,i) => {
+//   if(num>2){
+//     console.log(i);
+//   }
+//   return num > 2
+// })
+//  );   
+
+console.log(nums.every((num, i) => {
+  if (num > 2) {
+    console.log(i);
+  }
+  return num > 2
+}));

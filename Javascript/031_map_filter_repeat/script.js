@@ -75,3 +75,11 @@ const months = ['January', 'February', 'March', 'April', 'May',
 // ).filter((student)=>student.includes('a'))
 // console.log(value);
 
+
+
+const nums = [1, 2, 3, 4, 5, 6]
+
+nums.reduce((accumulator, current, index, arr) => {
+  console.log(accumulator, current)
+  return accumulator + current
+})

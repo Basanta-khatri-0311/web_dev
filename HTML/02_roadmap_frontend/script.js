@@ -35,6 +35,6 @@ const ourImageUrl = [
 //   imagePlace[i].src = ourImageUrl[i]
 // }
 
-imagePlace.forEach((image,i)=>{
-  image.src = ourImageUrl[i]
-})
+// imagePlace.forEach((image,i)=>{
+//   image.src = ourImageUrl[i]
+// })

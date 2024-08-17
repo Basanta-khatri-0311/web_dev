@@ -23,12 +23,12 @@
 
 
 
-const imagePlace = document.querySelectorAll('img')
-const ourImageUrl = [
-  'https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg',
-  'https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.webp?b=1&s=612x612&w=0&k=20&c=8xbZvMyptEaqMW46diKakhVgkPkAzBi5l7J1yveCZFk=',
-  'https://plus.unsplash.com/premium_photo-1675827055620-24d540e0892a?q=80&w=2772&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-]
+// const imagePlace = document.querySelectorAll('img')
+// const ourImageUrl = [
+//   'https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg',
+//   'https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.webp?b=1&s=612x612&w=0&k=20&c=8xbZvMyptEaqMW46diKakhVgkPkAzBi5l7J1yveCZFk=',
+//   'https://plus.unsplash.com/premium_photo-1675827055620-24d540e0892a?q=80&w=2772&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+// ]
 
 
 // for (let i = 0; i < imagePlace.length; i++) {
@@ -38,3 +38,34 @@ const ourImageUrl = [
 // imagePlace.forEach((image,i)=>{
 //   image.src = ourImageUrl[i]
 // })
+
+// document.querySelector('h1').style.color = 'red'
+// document.querySelector('h1').style.backgroundColor = 'blue'
+
+const aTags = document.querySelectorAll('a')
+
+// aTags.forEach((atag) => {
+// atag.style.color = 'teal'
+// atag.style.textDecoration = 'none'
+
+// })
+
+// for (let linkOfA of aTags) {
+//   linkOfA.style.color = 'blue'
+// atag.style.textDecoration = 'none'
+// }
+
+
+aTags.forEach((atag) => {
+  atag.style.cssText = `
+    color: teal ;
+    text-decoration: none`
+
+  // atag.className = 'edit-class'
+
+  // atag.setAttribute('class','class-name')
+
+  // atag.classList.add('class-name')
+  // atag.classList.remove('class-name')
+  // atag.classList.toggle('class-name')
+})

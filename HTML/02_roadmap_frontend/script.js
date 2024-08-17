@@ -69,3 +69,8 @@ aTags.forEach((atag) => {
   // atag.classList.remove('class-name')
   // atag.classList.toggle('class-name')
 })
+
+document.querySelector('a').parentElement
+
+document.querySelector('a').parentElement.previousElementSibling
+document.querySelector('a').parentElement.nextElementSibling

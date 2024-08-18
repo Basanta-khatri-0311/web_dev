@@ -3,18 +3,6 @@ const container = document.querySelector(".container")
 
 // const imageTag = document.querySelector('img')
 
-const imageTag = document.createElement('img')
-
-for(let i =0; i<=100; i++){
-  const  newImg = imageTag.cloneNode()
-  imageTag.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png`
-  container.append(imageTag)
-
-}
-
-container.append(p)
-
-p.innerText=''
 
 
 
@@ -23,3 +11,16 @@ p.innerText=''
 //   newImage.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png`
 //   container.append(newImage)
 // }
+
+
+
+for (let i = 1; i <= 100; i++) {
+  const imageTag = document.createElement('img')
+  imageTag.classList.add('my-para')
+  imageTag.id = 'para-id'
+  imageTag.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png`
+  container.append(imageTag)
+}
+
+// container.append(p)
+

@@ -14,13 +14,31 @@ const container = document.querySelector(".container")
 
 
 
-for (let i = 1; i <= 100; i++) {
-  const imageTag = document.createElement('img')
-  imageTag.classList.add('my-para')
-  imageTag.id = 'para-id'
-  imageTag.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png`
-  container.append(imageTag)
-}
+// for (let i = 1; i <= 100; i++) {
+//   const imageTag = document.createElement('img')
+// const imageName = document.createElement('figcaption')
+//   imageTag.classList.add('my-para')
+//   imageTag.id = 'para-id'
+// imageTag.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png`
+// imageName.innerText = `${i}`
+// container.append(imageTag)
+// container.append(imageName)
+// }
 
 // container.append(p)
 
+for (let i = 1; i <= 100; i++) {
+
+  const imageContainer = document.createElement('div')
+  imageContainer.classList.add('img-container')
+
+  const imageValue = document.createElement('img')
+  imageValue.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png`
+
+  const paragraphTag = document.createElement('p')
+  paragraphTag.innerText = i
+
+  imageContainer.append(imageValue,paragraphTag)
+  container.append(imageContainer)
+  
+}

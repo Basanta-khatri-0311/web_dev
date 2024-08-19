@@ -10,3 +10,7 @@ const h1 = document.querySelector('h1')
 //   newCard.innerText = i
 //   container.appendChild(newCard)
 // }
+
+function sayHi(){
+  console.log('Hello');
+}

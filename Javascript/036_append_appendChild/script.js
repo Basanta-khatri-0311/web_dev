@@ -22,3 +22,6 @@ function sayHi(){
 // h1.onclick = sayHi
 
 h1.addEventListener('click',sayHi)
+h1.addEventListener('click',function(){
+  console.log('Second Say hii!!!');
+})

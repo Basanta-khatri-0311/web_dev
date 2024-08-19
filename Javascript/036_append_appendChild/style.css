@@ -15,3 +15,15 @@
   border-radius: 4px;
   font-size: 36px;
 }
+.addCard {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  background-color: aqua;
+  color: white;
+  position: absolute;
+  top: 50px;
+  bottom: 33px;
+  right: 32px;
+  border-radius: 100%;
+}

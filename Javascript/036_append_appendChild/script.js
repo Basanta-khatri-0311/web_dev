@@ -11,7 +11,7 @@ const h1 = document.querySelector('h1')
 //   container.appendChild(newCard)
 // }
 
-function sayHi(){
+function sayHi() {
   console.log('Hello');
 }
 
@@ -21,7 +21,22 @@ function sayHi(){
 
 // h1.onclick = sayHi
 
-h1.addEventListener('click',sayHi)
-h1.addEventListener('click',function(){
-  console.log('Second Say hii!!!');
+// h1.addEventListener('click',sayHi)
+// h1.addEventListener('click',function(){
+//   console.log('Second Say hii!!!');
+// })
+
+// card.addEventListener('click',()=>console.log('This is my Card'))
+
+
+let count = 1
+
+card.addEventListener('click', () => {
+  // const newCard = document.createElement('div')
+  // newCard.classList.add('card')
+  const newCard = card.cloneNode()
+  newCard.classList.remove('addCard')
+  newCard.innerText = count
+  count++
+  container.append(newCard)
 })

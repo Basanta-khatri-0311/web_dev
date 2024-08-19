@@ -15,6 +15,10 @@ function sayHi(){
   console.log('Hello');
 }
 
-function sayHello(){
-  console.log('Hello!!!!');
-}
+// function sayHello(){
+//   console.log('Hello!!!!');
+// }
+
+// h1.onclick = sayHi
+
+h1.addEventListener('click',sayHi)

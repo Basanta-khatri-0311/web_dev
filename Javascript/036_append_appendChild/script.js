@@ -14,3 +14,7 @@ const h1 = document.querySelector('h1')
 function sayHi(){
   console.log('Hello');
 }
+
+function sayHello(){
+  console.log('Hello!!!!');
+}

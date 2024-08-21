@@ -38,15 +38,23 @@ let count = 0
 // })
 
 //runs after the mouse leaves the area
-card.addEventListener('mouseleave', () => {
-  const newCard = document.createElement('div')
-  newCard.classList.add('card')
-  newCard.innerText = count++
-  container.append(newCard)
-})
+// card.addEventListener('mouseleave', () => {
+//   const newCard = document.createElement('div')
+//   newCard.classList.add('card')
+//   newCard.innerText = count++
+//   container.append(newCard)
+// })
 
 //runs as much the mouse moves in that area
-card.addEventListener('mousemove', () => {
+// card.addEventListener('mousemove', () => {
+//   const newCard = document.createElement('div')
+//   newCard.classList.add('card')
+//   newCard.innerText = count++
+//   container.append(newCard)
+// })
+
+//runs if we move inside the child of that particular element
+card.addEventListener('mouseover', () => {
   const newCard = document.createElement('div')
   newCard.classList.add('card')
   newCard.innerText = count++

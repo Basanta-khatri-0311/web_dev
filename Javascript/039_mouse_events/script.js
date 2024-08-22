@@ -111,9 +111,9 @@ let count = 0
 
 
 // runs whenever we touch and move 
-card.addEventListener('pointermove', () => {
-  const newCard = document.createElement('div')
-  newCard.classList.add('card')
-  newCard.innerText = count++
-  container.append(newCard)
-})
+// card.addEventListener('pointermove', () => {
+//   const newCard = document.createElement('div')
+//   newCard.classList.add('card')
+//   newCard.innerText = count++
+//   container.append(newCard)
+// })

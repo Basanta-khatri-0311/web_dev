@@ -4,11 +4,11 @@ const blue = document.querySelector('.blue')
 
 green.addEventListener('click',(e)=>{
   console.log('Green event listener');
-})
+},true)
 pink.addEventListener('click',(e)=>{
   console.log('Pink event listener');
-})
+},true)
 blue.addEventListener('click',(e)=>{
   e.stopPropagation()
   console.log('Blue event listener');
-})
+},true)

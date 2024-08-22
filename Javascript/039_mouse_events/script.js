@@ -102,7 +102,16 @@ let count = 0
 // })
 
 //runs whenever we drag but that element needs to be set as draggable true
-card.addEventListener('drag', () => {
+// card.addEventListener('drag', () => {
+//   const newCard = document.createElement('div')
+//   newCard.classList.add('card')
+//   newCard.innerText = count++
+//   container.append(newCard)
+// })
+
+
+// runs whenever we touch and move 
+card.addEventListener('pointermove', () => {
   const newCard = document.createElement('div')
   newCard.classList.add('card')
   newCard.innerText = count++

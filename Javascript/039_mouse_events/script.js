@@ -54,7 +54,55 @@ let count = 0
 // })
 
 //runs if we move inside the child of that particular element
-card.addEventListener('mouseover', () => {
+// card.addEventListener('mouseover', () => {
+//   const newCard = document.createElement('div')
+//   newCard.classList.add('card')
+//   newCard.innerText = count++
+//   container.append(newCard)
+// })
+
+//runs if we scroll over the track pad or mouse wheel
+// card.addEventListener('wheel', () => {
+//   const newCard = document.createElement('div')
+//   newCard.classList.add('card')
+//   newCard.innerText = count++
+//   container.append(newCard)
+// })
+
+//runs whenever the page is scrollable
+// document.addEventListener('scroll', () => {
+//   const newCard = document.createElement('div')
+//   newCard.classList.add('card')
+//   newCard.innerText = count++
+//   container.append(newCard)
+// })
+
+//runs in mobile devices whenever element is touched
+//   card.addEventListener('touchstart', () => {
+//   const newCard = document.createElement('div')
+//   newCard.classList.add('card')
+//   newCard.innerText = count++
+//   container.append(newCard)
+// })
+
+//runs whenever element is leaved after its touched
+//   card.addEventListener('touchend', () => {
+//   const newCard = document.createElement('div')
+//   newCard.classList.add('card')
+//   newCard.innerText = count++
+//   container.append(newCard)
+// })
+
+//runs whenever we touch and move 
+// card.addEventListener('touchmove', () => {
+//   const newCard = document.createElement('div')
+//   newCard.classList.add('card')
+//   newCard.innerText = count++
+//   container.append(newCard)
+// })
+
+//runs whenever we drag but that element needs to be set as draggable true
+card.addEventListener('drag', () => {
   const newCard = document.createElement('div')
   newCard.classList.add('card')
   newCard.innerText = count++

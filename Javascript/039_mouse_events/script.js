@@ -22,14 +22,27 @@ let count = 1
 //   form.reset()
 // },10000)
 
+// container.addEventListener('click',(e)=>{
+//   e.target.remove()
+// })
+
+container.addEventListener('click',(e)=>{
+  if(e.target!== container){
+    e.target.remove()
+  }
+})
+
 
 //runs while clicking
-// card.addEventListener('click', () => {
-//   const newCard = document.createElement('div')
-//   newCard.classList.add('card')
-//   newCard.innerText = count++
-//   container.append(newCard)
-// })
+card.addEventListener('click', () => {
+  const newCard = document.createElement('div')
+  newCard.classList.add('card')
+  newCard.innerText = count++
+  // newCard.addEventListener('click',()=>{
+  //   newCard.remove()
+  // })
+  container.append(newCard)
+})
 
 // const intervalId = setInterval(()=>{
 // if(count<=100){

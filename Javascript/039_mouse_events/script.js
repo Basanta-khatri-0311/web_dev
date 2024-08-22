@@ -1,24 +1,29 @@
 const h1 = document.querySelector('h1')
 const card = document.querySelector('.card')
 const container = document.querySelector('.container')
+const inputBox = document.querySelector('input')
 
 let count = 1
 
-//runs while clicking
-card.addEventListener('click', () => {
-  const newCard = document.createElement('div')
-  newCard.classList.add('card')
-  newCard.innerText = count++
-  container.append(newCard)
-})
+setTimeout(()=>{
+  inputBox.focus()
+},2000)
 
-const intervalId = setInterval(()=>{
-if(count<=100){
-  card.click()
-}else{
-  clearInterval(intervalId)
-}
-},20)
+//runs while clicking
+// card.addEventListener('click', () => {
+//   const newCard = document.createElement('div')
+//   newCard.classList.add('card')
+//   newCard.innerText = count++
+//   container.append(newCard)
+// })
+
+// const intervalId = setInterval(()=>{
+// if(count<=100){
+//   card.click()
+// }else{
+//   clearInterval(intervalId)
+// }
+// },20)
 
 //runs immediately after clicking
 // card.addEventListener('mousedown', () => {

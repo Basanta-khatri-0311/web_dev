@@ -2,12 +2,26 @@ const h1 = document.querySelector('h1')
 const card = document.querySelector('.card')
 const container = document.querySelector('.container')
 const inputBox = document.querySelector('input')
+const form = document.querySelector('form')
 
 let count = 1
 
-setTimeout(()=>{
-  inputBox.focus()
-},2000)
+// setTimeout(()=>{
+//   inputBox.focus()
+// },2000)
+
+// setTimeout(()=>{
+//   inputBox.blur()
+// },5000)
+
+// setTimeout(()=>{
+//   form.submit()
+// },10000)
+
+// setTimeout(()=>{
+//   form.reset()
+// },10000)
+
 
 //runs while clicking
 // card.addEventListener('click', () => {

@@ -9,5 +9,6 @@ pink.addEventListener('click',(e)=>{
   console.log('Pink event listener');
 })
 blue.addEventListener('click',(e)=>{
+  e.stopPropagation()
   console.log('Blue event listener');
 })

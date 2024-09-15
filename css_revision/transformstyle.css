@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+
+/* .box{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    transform: translateX(100%) rotateZ(45deg) scale(0.5);
+}
+
+#box1{
+    
+    background-color: hsl(120, 100%, 70%);
+}
+
+#box2{
+    background-color: hsl(0, 100%, 70%);
+}
+
+#box3{
+    background-color: hsl(217, 100%, 70%);
+} */
+
+/* img{
+    transition: 1s;
+}
+
+img:hover{
+    transform: translateX(100%) rotateZ(180deg) scaleX(2);
+} */
+
+#box{
+    height: 250px;
+    width: 250px;
+    background-color: hsl(0, 100%, 62%);
+    font-size: 13em;
+    text-align: center;
+    animation-name: slideLeft;
+    animation-duration: 1s;
+}
+
+@keyframes slideLeft {
+    from{
+        transform: translateX(100px);
+    }
+}

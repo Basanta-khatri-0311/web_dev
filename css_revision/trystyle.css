@@ -4,23 +4,29 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 body{
     background-color: hsl(60, 82%, 34%);
     font-family: "Poppins", sans-serif;
     color: white;
+    
 }
 
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.links{
+    background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
 }
+   
 
 nav img{
+    margin: 20px 10px;
     width: 100px;
 }
 
@@ -42,4 +48,8 @@ button{
     border-radius: 12px;
     margin-right: 20px;
     background-color: rgb(167, 6, 167);
+}
+
+button:hover{
+    cursor: pointer;
 }

@@ -10,7 +10,7 @@ a{
 }
 
 body{
-    background-color: hsl(60, 82%, 34%);
+    background-color: hsl(125, 82%, 34%);
     font-family: "Poppins", sans-serif;
     color: white;
     
@@ -20,7 +20,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(34, 30, 238, 0.829);
     backdrop-filter: blur(10px);
 }
    
@@ -43,11 +43,13 @@ li{
     padding-right: 30px;
 }
 button{
-    padding: 10px;
+    padding: 20px;
     border: none;
     border-radius: 12px;
     margin-right: 20px;
-    background-color: rgb(167, 6, 167);
+    background-color: rgb(221, 6, 6);
+    color: inherit;
+    font-size: 1.5em;
 }
 
 button:hover{
@@ -63,10 +65,16 @@ main{
 .right {
     width: 50%;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
+    margin-right: 5%;
+}
+
+.right img{
+    filter: drop-shadow(-20px 2px 9px rgb(248, 21, 21));
 }
 
 .left{
     width: 50%;
-    text-align: center;
+    padding-left: 5%;
 }

@@ -119,3 +119,16 @@ nav ul a{
     font-size: 21px;
     font-weight: 200;
 }
+
+
+@media (max-width: 760px) {
+
+    .features{
+
+        flex-direction: column;
+        padding-block: 8em;
+    }
+    .features-items{
+        margin-top: 20px;
+    }
+}

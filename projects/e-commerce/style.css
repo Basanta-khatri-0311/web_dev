@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/*------------------------------------------------- TOP INFO STYLING-------------------------------------------------------- */
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.info p{
+    font-size: 18px;
+    font-weight: 200;
+    color: #272727;
+}
+/* ---------------------------------------------------NAV BAR STYLING--------------------------------------------------------- */
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #272727;
+}
+

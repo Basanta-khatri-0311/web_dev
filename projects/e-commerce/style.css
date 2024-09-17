@@ -44,3 +44,51 @@ nav ul a{
     font-size: 16px;
     font-weight: 300;
 }
+/* ---------------------------------------------------CONTENT STYLING------------------------------------------------------ */
+
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.content{
+    margin-left: 10%;
+}
+
+.left-arrow button, .right-arrow button{
+    position: absolute;
+    /* top: 50%; */
+    font-size: 2em;
+    font-weight: 200;
+    border: none;
+}
+
+.left-arrow{
+    margin-left: 12px;
+    left: 0;
+}
+
+.right-arrow{
+    margin-right: 28px;
+    right: 0;
+}
+
+.content h1{
+    font-size: 51px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+
+.shop{
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 300;
+    border: none;
+    padding: 22px;
+    border-radius: 200px;
+    background-color: #FF6543;
+    color: #ffffff;
+}

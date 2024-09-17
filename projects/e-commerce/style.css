@@ -92,3 +92,30 @@ nav ul a{
     background-color: #FF6543;
     color: #ffffff;
 }
+
+/* --------------------------------------------------------------------FEATURES------------------------------------------ */
+
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 8em;
+}
+
+.features-items{
+    display: flex;
+}
+
+.features-items i{
+    font-size: 2em;
+    color: #FF6543;
+}
+
+.features-items .text h4{
+    font-size: 22px;
+    font-weight: 200;
+}
+.features-items .text p{
+    font-size: 21px;
+    font-weight: 200;
+}

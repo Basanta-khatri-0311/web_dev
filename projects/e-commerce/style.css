@@ -63,6 +63,7 @@ nav ul a{
     font-size: 2em;
     font-weight: 200;
     border: none;
+    cursor: pointer;
 }
 
 .left-arrow{
@@ -91,6 +92,7 @@ nav ul a{
     border-radius: 200px;
     background-color: #FF6543;
     color: #ffffff;
+    cursor: pointer;
 }
 
 /* --------------------------------------------------------------------FEATURES------------------------------------------ */
@@ -100,6 +102,7 @@ nav ul a{
     align-items: center;
     justify-content: space-between;
     padding-inline: 8em;
+    margin-bottom: 52px;
 }
 
 .features-items{
@@ -120,13 +123,48 @@ nav ul a{
     font-weight: 200;
 }
 
+/* ---------------------------------------------------------------CATOGERIES STYLING---------------------------------- */
 
+.categories{
+    padding-inline: 8rem;
+}
+
+.category-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+.categories .category-list{
+    margin-top: 12px;
+}
+
+.categories .title h1{
+    font-size: 30px;
+    font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------------------------------RESPONSIVE DESIGNING---------------------------------- */
 @media (max-width: 760px) {
-
     .features{
 
         flex-direction: column;
-        padding-block: 8em;
+        padding-block: 4em;
     }
     .features-items{
         margin-top: 20px;

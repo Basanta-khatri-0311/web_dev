@@ -125,7 +125,7 @@ nav ul a{
 
 /* ---------------------------------------------------------------CATOGERIES STYLING---------------------------------- */
 
-.categories{
+.categories,.best{
     padding-inline: 8rem;
 }
 
@@ -135,13 +135,13 @@ nav ul a{
     justify-content: space-between;
 }
 
-.category-items{
+.category-items,.best-item{
     display: flex;
     flex-direction: column;
     justify-content: baseline;
     align-items: center;
 }
-.categories .category-list{
+.category-list{
     margin-top: 12px;
 }
 

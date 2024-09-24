@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: #c9223e;
+}
+nav ul{
+    list-style: none;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu li{
+    margin-left: ;
+}
+
+body{
+    font-family: "Cabin";
+    background-image: url(./assets/Background.svg);
+}

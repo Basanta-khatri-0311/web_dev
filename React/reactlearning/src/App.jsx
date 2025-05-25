@@ -22,19 +22,40 @@
 
 // export default App
 
+// import { useState } from "react";
+// import Profile from "./Profile";
 
-import React from 'react'
-import Profile from './Profile'
+// const App = () => {
+//   const [userData, setUserData] = useState({});
+//   const [name, setName] = useState("");
+//   const [age, setAge] = useState("");
+//   const addData = (e) => {
+//     e.preventDefault;
+//     setUserData({
+//       name,
+//       age
+//     });
+//     setAge("")
+//     setName("")
+//   };
+//   return (
+//     <div>
+//       <h1>Hi from Main page</h1>
 
-const App = () => {
-  const userData = {name:"Basanta", age:22}
-  return (
-    <div>
-      <h1>Hi from Main page</h1>
-      <Profile user = {userData}/>
-    </div>
-  )
-}
+//       <label htmlFor="Name">Name: </label>
+//       <input type="text" name="" id="name" value={name} onChange={(e)=>setName(e.target.value)}/>
 
-export default App
+//       <label htmlFor="age">Age: </label>
+//       <input type="number" name="" id="age" value={age} onChange={(e)=>setAge(e.target.value)}/>
+
+//       <button onClick={addData}>Submit</button>
+
+//       <Profile user={userData} />
+//     </div>
+//   );
+// };
+
+// export default App;
+
+
 

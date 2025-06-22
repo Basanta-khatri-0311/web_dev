@@ -19,6 +19,12 @@ function AddToCart() {
     }
   };
 
+  const onDeleteClicked = (clickedBrand) => {
+    setSelectedBrand(
+      selectedBrand.filter((value) => value.id !== clickedBrand)
+    );
+  };
+
   return (
     <div className="container">
       <h1>Our Brands</h1>
@@ -43,7 +49,13 @@ function AddToCart() {
             <ul className="cart-list">
               {selectedBrand.map((brand) => (
                 <li key={brand.id} className="cart-item">
-                  {brand.brandName}
+                  <span>{brand.brandName}</span>
+                  <button
+                    className="button"
+                    onClick={() => onDeleteClicked(brand.id)}
+                  >
+                    Remove item
+                  </button>
                 </li>
               ))}
             </ul>

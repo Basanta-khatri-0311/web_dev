@@ -3,6 +3,7 @@ import SearchBrand from './components/SearchBrand'
 import AddToCart from './components/AddToCart'
 import SelfSearchBrand from './components/SelfSearchBrand'
 import SelfAddToCart from './components/SelfAddToCart'
+import WishList from './components/WishList'
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
       {/* <SearchBrand/>
       <AddToCart/> */}
       {/* <SelfSearchBrand/> */}
-      <SelfAddToCart/>
+      {/* <SelfAddToCart/> */}
+      <WishList/>
     </div>
   )
 }

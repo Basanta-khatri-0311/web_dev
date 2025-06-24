@@ -129,4 +129,7 @@ h2 {
 .todo-item button:hover {
   background-color: #dc2626;
 }
-
+.line-strike {
+  text-decoration: line-through;
+  color: gray;
+}

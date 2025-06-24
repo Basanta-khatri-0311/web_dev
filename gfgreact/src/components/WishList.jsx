@@ -15,8 +15,19 @@ const WishList = () => {
 
   const onAddToDoClicked = () => {
     if (toDo.trim() === "") return alert("Please enter something!");
-    setToDoList((prev) => [...prev, { id: uuid(), todo: toDo.trim() }]);
+    setToDoList((prev) => [
+      ...prev,
+      { id: uuid(), todo: toDo.trim(), isChecked: false },
+    ]);
     setToDo("");
+  };
+
+  const onToDoCheckChange = (checkedId) => {
+    setToDoList(
+      toDoList.map((todo) =>
+        todo.id === checkedId ? { ...todo, isChecked: !todo.isChecked } : todo
+      )
+    );
   };
 
   return (
@@ -34,12 +45,24 @@ const WishList = () => {
       </div>
 
       <div>
-        {toDoList.length > 0 ? toDoList.map((value) => (
-          <div className="todo-item" key={value.id}>
-            <span>{value.todo}</span>
-            <button onClick={() => onDeleteClicked(value.id)}>Delete</button>
-          </div>
-        )):<h3>No value Added</h3>}
+        {toDoList.length > 0 ? (
+          toDoList.map((value) => (
+            <div className="todo-item" key={value.id}>
+              <label htmlFor="">
+                <input 
+                  type="checkbox"
+                  onChange={() => onToDoCheckChange(value.id)}
+                  name=""
+                  id=""
+                />
+                <span className={value.isChecked ? 'line-strike' : "" }>{value.todo}</span>
+              </label>
+              <button onClick={() => onDeleteClicked(value.id)}>Delete</button>
+            </div>
+          ))
+        ) : (
+          <h3>No value Added</h3>
+        )}
       </div>
     </div>
   );

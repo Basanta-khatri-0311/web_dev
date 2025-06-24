@@ -4,6 +4,7 @@ import AddToCart from './components/AddToCart'
 import SelfSearchBrand from './components/SelfSearchBrand'
 import SelfAddToCart from './components/SelfAddToCart'
 import WishList from './components/WishList'
+import SelfWishList from './components/SelfWishList'
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
       <AddToCart/> */}
       {/* <SelfSearchBrand/> */}
       {/* <SelfAddToCart/> */}
-      <WishList/>
+      {/* <WishList/> */}
+      <SelfWishList/>
     </div>
   )
 }

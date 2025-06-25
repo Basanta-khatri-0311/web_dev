@@ -5,6 +5,8 @@ import SelfSearchBrand from './components/SelfSearchBrand'
 import SelfAddToCart from './components/SelfAddToCart'
 import WishList from './components/WishList'
 import SelfWishList from './components/SelfWishList'
+import LearnuseRef from './components/LearnuseRef'
+import GetValueWothoutState from './components/GetValueWithoutState'
 
 
 function App() {
@@ -15,7 +17,9 @@ function App() {
       {/* <SelfSearchBrand/> */}
       {/* <SelfAddToCart/> */}
       {/* <WishList/> */}
-      <SelfWishList/>
+      {/* <SelfWishList/> */}
+      {/* <LearnuseRef/> */}
+      <GetValueWothoutState/>      
     </div>
   )
 }

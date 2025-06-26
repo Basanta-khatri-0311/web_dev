@@ -65,6 +65,7 @@ const GetValueWithoutState = () => {
     timerRef.current = 0;
   };
 
+  
   return (
     <div>
       <button onClick={onStartClick}>start</button>

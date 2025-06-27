@@ -7,6 +7,7 @@ import WishList from './components/WishList'
 import SelfWishList from './components/SelfWishList'
 import LearnuseRef from './components/LearnuseRef'
 import GetValueWothoutState from './components/GetValueWithoutState'
+import UseEffectHook from './components/UseEffectHook'
 
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
       {/* <WishList/> */}
       {/* <SelfWishList/> */}
       {/* <LearnuseRef/> */}
-      <GetValueWothoutState/>      
+      {/* <GetValueWothoutState/>*/}
+      <UseEffectHook/>
     </div>
   )
 }

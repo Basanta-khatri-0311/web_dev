@@ -16,6 +16,7 @@ const UseEffectHook = () => {
         fetchedIds.current.add(count); 
       } catch (error) {
         console.error("Error fetching product:", error);
+        
       }
     };
 

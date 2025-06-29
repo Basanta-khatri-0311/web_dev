@@ -9,6 +9,8 @@ import LearnuseRef from './components/LearnuseRef'
 import GetValueWothoutState from './components/GetValueWithoutState'
 import UseEffectHook from './components/UseEffectHook'
 import UseReducerHook from './components/UseReducerHook'
+import TaskUseReducer from './components/TaskUseReducer'
+import FilteringTaskReducer from './components/FilteringTaskReducer'
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
       {/* <GetValueWothoutState/>*/}
       {/* <UseEffectHook/> */}
       {/* <UseReducerHook/> */}
+      {/* <TaskUseReducer/> */}
+      <FilteringTaskReducer/>
     </div>
   )
 }

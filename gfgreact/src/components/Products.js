@@ -1,0 +1,58 @@
+export const products = [
+  {
+    id: 1,
+    name: "Running Shoes",
+    category: "Shoes",
+    price: 3000,
+    discount: 20,
+  },
+  {
+    id: 2,
+    name: "Formal Shirt",
+    category: "Shirts",
+    price: 2000,
+    discount: 10,
+  },
+  {
+    id: 3,
+    name: "Leather Belt",
+    category: "Accessories",
+    price: 800,
+    discount: 5,
+  },
+  {
+    id: 4,
+    name: "Casual Sneakers",
+    category: "Shoes",
+    price: 3500,
+    discount: 30,
+  },
+  {
+    id: 5,
+    name: "Denim Shirt",
+    category: "Shirts",
+    price: 2200,
+    discount: 15,
+  },
+  {
+    id: 6,
+    name: "Cap",
+    category: "Accessories",
+    price: 500,
+    discount: 25,
+  },
+  {
+    id: 7,
+    name: "Boots",
+    category: "Shoes",
+    price: 4500,
+    discount: 40,
+  },
+  {
+    id: 8,
+    name: "T-Shirt",
+    category: "Shirts",
+    price: 1500,
+    discount: 0,
+  },
+];

@@ -51,7 +51,7 @@ const FilteringTaskReducer = () => {
   const filteredByCategory =
     category && category.trim() !== ""
       ? filteredByDiscount.filter(
-          (p) => p.category.toLowerCase() === category.trim()
+          (p) => p.category.toLowerCase().includes(category.trim())
         )
       : filteredByDiscount;
 

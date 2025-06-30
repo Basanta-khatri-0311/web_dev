@@ -11,6 +11,7 @@ import UseEffectHook from './components/UseEffectHook'
 import UseReducerHook from './components/UseReducerHook'
 import TaskUseReducer from './components/TaskUseReducer'
 import FilteringTaskReducer from './components/FilteringTaskReducer'
+import ReducerRevision from './components/ReducerRevision'
 
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
       {/* <UseEffectHook/> */}
       {/* <UseReducerHook/> */}
       {/* <TaskUseReducer/> */}
-      <FilteringTaskReducer/>
+      {/* <FilteringTaskReducer/> */}
+      <ReducerRevision/>
     </div>
   )
 }

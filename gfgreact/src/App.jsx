@@ -12,6 +12,7 @@ import UseReducerHook from './components/UseReducerHook'
 import TaskUseReducer from './components/TaskUseReducer'
 import FilteringTaskReducer from './components/FilteringTaskReducer'
 import ReducerRevision from './components/ReducerRevision'
+import FormValidationWithReducer from './components/FormValidationWithReducer'
 
 
 function App() {
@@ -29,7 +30,8 @@ function App() {
       {/* <UseReducerHook/> */}
       {/* <TaskUseReducer/> */}
       {/* <FilteringTaskReducer/> */}
-      <ReducerRevision/>
+      {/* <ReducerRevision/> */}
+      <FormValidationWithReducer/>
     </div>
   )
 }
